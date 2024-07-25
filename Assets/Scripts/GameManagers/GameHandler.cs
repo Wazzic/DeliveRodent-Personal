@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Audio;
-using Lofelt.NiceVibrations;
+//using Lofelt.NiceVibrations;
 
 public class GameHandler : MonoBehaviour
 {
@@ -44,8 +44,8 @@ public class GameHandler : MonoBehaviour
         //fadePanel.FadeOut(2f, 7);
         for (int i = 0; i < GameManager.instance.numberOfPlayers; i++)
         {
-            GamepadRumbler.SetCurrentGamepad(i);
-            HapticController.Stop();
+            //GamepadRumbler.SetCurrentGamepad(i);
+            //HapticController.Stop();
         }
         PlayerStats.Scores = ScoreManager.instance.PlayersScore();
 

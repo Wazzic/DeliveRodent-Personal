@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Analytics;
+//using UnityEngine.Analytics;
 using UnityEngine.InputSystem;
-using Lofelt.NiceVibrations;
 
 public class AttackScript : MonoBehaviour
 {
@@ -128,8 +127,8 @@ public class AttackScript : MonoBehaviour
         //Plays the attack visual effect && Haptic feedback
         deliveryVFXHandler.PlayAttackVFX();
         carAudioHandler.PlaySwoosh();
-        GamepadRumbler.SetCurrentGamepad(arcadeVehicleController.PlayerID);
-        HapticPatterns.PlayEmphasis(1f, 0.2f);
+        //GamepadRumbler.SetCurrentGamepad(arcadeVehicleController.PlayerID);
+        //HapticPatterns.PlayEmphasis(1f, 0.2f);
 
         bool successfulAttack = false;
         for (int i = 0; i < totalCollision; i++)

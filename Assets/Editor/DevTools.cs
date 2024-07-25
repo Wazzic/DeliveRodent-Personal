@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 //using Unity.VisualScripting;
-using Lofelt.NiceVibrations;
+//using Lofelt.NiceVibrations;
 
 public class DevTools : EditorWindow
 {
@@ -13,7 +13,7 @@ public class DevTools : EditorWindow
     [SerializeField] AnalogueClock clock;
     bool infiniteTimeToggle;
 
-    bool hapticFeedback = true;
+    //bool hapticFeedback = true;
     
 
     [MenuItem("Tools/DevTools")]
@@ -47,7 +47,7 @@ public class DevTools : EditorWindow
         //}
 
         EditorGUILayout.Space(20);
-        hapticFeedback = GUILayout.Toggle(hapticFeedback, "Toggle HapticFeedback");
-        HapticController.hapticsEnabled = hapticFeedback;        
+        //hapticFeedback = GUILayout.Toggle(hapticFeedback, "Toggle HapticFeedback");
+        //HapticController.hapticsEnabled = hapticFeedback;        
     }
 }

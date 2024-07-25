@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
-using Lofelt.NiceVibrations;
+//using Lofelt.NiceVibrations;
 
 public class InputManager : MonoBehaviour
 {
