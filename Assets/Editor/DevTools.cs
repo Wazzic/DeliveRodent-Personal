@@ -41,10 +41,10 @@ public class DevTools : EditorWindow
             clock.infiniteTime = false;
         }
         
-        if (GUILayout.Button("Start Analytics"))
-        {
-            AnalyticsManager.instance.EnableAnalytics();
-        }
+        //if (GUILayout.Button("Start Analytics"))
+       // {
+         //   AnalyticsManager.instance.EnableAnalytics();
+        //}
 
         EditorGUILayout.Space(20);
         hapticFeedback = GUILayout.Toggle(hapticFeedback, "Toggle HapticFeedback");
