@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 97cedaf8307ff9f4a8975be201aa0eca
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cartoon Comic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 48b4141d42f24644fbde5e988e703c48, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

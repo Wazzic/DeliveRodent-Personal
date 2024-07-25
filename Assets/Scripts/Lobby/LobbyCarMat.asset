@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0b799ee1ed8219488049375ba64865d, type: 3}
+  m_Name: LobbyCarMat
+  m_EditorClassIdentifier: 
+  characterPrefabs:
+  - {fileID: 4750213166261958607, guid: 7ceeec3cc81d623468cda2e4126da2a5, type: 3}
+  - {fileID: 7036110666096764064, guid: 7b9d2dcb73594784abfa2e0fb26407cb, type: 3}
+  - {fileID: 957710320317924611, guid: 0e94fdb42c1adbc49ac3748ba7ca5978, type: 3}
+  - {fileID: 89497312626909617, guid: 3bf93e5c174eedc4dbb17c00b9cfedc7, type: 3}
+  - {fileID: 989142104805727252, guid: 49336aa48b287e3439666bbb68005a5c, type: 3}
+  - {fileID: 2319595193286725534, guid: b3ef024c6139f8f4080477780e96a24b, type: 3}
+  - {fileID: 2753826997098950858, guid: 0cd296d2e70b8334b82e7d606a265f64, type: 3}
+  - {fileID: 7193739381197442137, guid: e90e4d22f04ddd447ae3565a5e2e973c, type: 3}
+  - {fileID: 8723858114809439650, guid: 62524869010be344fb98c62512e1296e, type: 3}
+  characterIconMat:
+  - {fileID: 2100000, guid: 316ccf8512690d0449e0e97ee74f5213, type: 2}
+  - {fileID: 2100000, guid: e71d3164553e04e4fa711cf26105c3c8, type: 2}
+  - {fileID: 2100000, guid: 670d09e14f066434482bd6145c06d184, type: 2}
+  - {fileID: 2100000, guid: a225c49773fef744580fb3d449104364, type: 2}
+  - {fileID: 2100000, guid: f66b5da24261ab042a89e0d81a600637, type: 2}
+  - {fileID: 2100000, guid: a44dcf5b8ae54354fa95533e6855f27c, type: 2}
+  - {fileID: 2100000, guid: bd90e94eedb7491469102649f5d143fa, type: 2}
+  - {fileID: 2100000, guid: 82e90ac09a19af241aba011c855e53e3, type: 2}
+  - {fileID: 2100000, guid: 5df2c4780ade8f34abc360eca28cf0dd, type: 2}
+  hatPrefabs:
+  - {fileID: 919132149155446097, guid: 7974054a54c7f194089c402939b265e5, type: 3}
+  - {fileID: 919132149155446097, guid: 56ea2217d155f4644bf986c39cae928e, type: 3}
+  - {fileID: 919132149155446097, guid: ba50ad7dcfefd38498919e6def095ebd, type: 3}
+  - {fileID: 919132149155446097, guid: 3b70c5cfd832ed34782ea621ef8b915d, type: 3}
+  - {fileID: 919132149155446097, guid: 7eb5089dce0539644b9cfff185ec3829, type: 3}
+  - {fileID: 919132149155446097, guid: 52bac3e1b8fcb73428d6bc6913b04224, type: 3}
+  - {fileID: 919132149155446097, guid: 8c7ff1495a326bf4ea8767cda2f6e602, type: 3}
+  - {fileID: 919132149155446097, guid: ce28e52b146b0194791ed092388b9827, type: 3}
+  - {fileID: 919132149155446097, guid: f02df96009978064badeec2882fe1c88, type: 3}
+  - {fileID: 919132149155446097, guid: 69d13540a11f1df44be9127d8ce27af4, type: 3}
+  - {fileID: 919132149155446097, guid: 4d47933dfd2089940b861179e90ddcda, type: 3}
+  - {fileID: 919132149155446097, guid: 76a79d07f91d9d7498b6951e2b5c68b1, type: 3}
+  carMatsLobby:
+  - mat: {fileID: 2100000, guid: ee8e7812c4e270c4891b15e29943eb4d, type: 2}
+    active: 0
+  - mat: {fileID: 2100000, guid: 545b03382ddadd24eb9a346014c0df05, type: 2}
+    active: 0
+  - mat: {fileID: 2100000, guid: f93ca2db42f529641b191aa433464b6f, type: 2}
+    active: 0
+  - mat: {fileID: 2100000, guid: 73dcf7e00914e9f499e00837aa87fc26, type: 2}
+    active: 0
+  - mat: {fileID: 2100000, guid: a36005f5837d6684f938d57d9cfdaf6d, type: 2}
+    active: 0
+  - mat: {fileID: 2100000, guid: 163d9c830d058ec47b0145c1c29f8ed8, type: 2}
+    active: 0
+  - mat: {fileID: 2100000, guid: 334e8a0711cec3d4d9ac4faf1ab81354, type: 2}
+    active: 0
+  carMatsInGame:
+  - {fileID: 2100000, guid: 7e8ac47d822102646805de936663d900, type: 2}
+  - {fileID: 2100000, guid: 2ea706ee0b923b641b4cc03c31fb7577, type: 2}
+  - {fileID: 2100000, guid: ee7a7658b9e28ba4199c1382ad14d0ef, type: 2}
+  - {fileID: 2100000, guid: 421c27904c90bfa4db51b22b3623e50c, type: 2}
+  - {fileID: 2100000, guid: e9588f6c97c53134ca97cc62b680ae27, type: 2}
+  - {fileID: 2100000, guid: b9947006dc85fa44aa75f8ac5480e60e, type: 2}
+  - {fileID: 2100000, guid: 5d0212841a77e2143a3fa46d7301ee21, type: 2}
+  carPrefabs:
+  - {fileID: 716692729249509971, guid: 33fa6f1679883b840ac6d2e33569b6a9, type: 3}
+  - {fileID: 484808889087862231, guid: 2f361751a1ee1624f889481930209e40, type: 3}
+  - {fileID: 6286925847700634092, guid: a13b655b4168597448c730db086247ed, type: 3}
+  - {fileID: 3973315603176186858, guid: 9df50bd670365a745aa5e1e8a667ce61, type: 3}
+  - {fileID: 2724010175611920808, guid: 4dc16cdc78326bb4d9df1f9700c7caeb, type: 3}
+  - {fileID: 583078655856720930, guid: 252da43934c090e4f8575888127d6412, type: 3}

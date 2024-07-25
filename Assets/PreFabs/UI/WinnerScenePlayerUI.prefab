@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7024895873033575683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7387873310376573778}
+  - component: {fileID: 198630863249472808}
+  - component: {fileID: 2813540574700173961}
+  m_Layer: 0
+  m_Name: WinnerScenePlayerUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7387873310376573778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024895873033575683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &198630863249472808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024895873033575683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: f907ac75692f1274890eedc44be42e19,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 10590f2d-6f9d-4772-8e31-0d9f212e25ae
+    m_ActionName: CarController/Steer[/Keyboard/a,/Keyboard/d,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/x,/XInputControllerWindows1/leftStick/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5d270e2a-158b-4a0e-a5c8-8b134eddfab2
+    m_ActionName: CarController/Accelerate[/Keyboard/w,/Keyboard/upArrow,/XInputControllerWindows/rightTrigger,/XInputControllerWindows1/rightTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 883030ce-01fc-40d3-b5c3-698dbd12da1e
+    m_ActionName: CarController/Brake[/Keyboard/s,/Keyboard/downArrow,/XInputControllerWindows/leftTrigger,/XInputControllerWindows1/leftTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b06eb5fc-e681-429e-b3fc-b23f2e2a14fc
+    m_ActionName: CarController/Handbrake[/Keyboard/leftShift,/Keyboard/enter,/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 50859394-fa2c-489a-af3e-f9881db8208c
+    m_ActionName: CarController/Steal[/Keyboard/space,/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 127180a1-cd0b-4a5d-9111-253d41770ec2
+    m_ActionName: CarController/SwitchArrowTarget[/Keyboard/tab,/XInputControllerWindows/rightShoulder,/XInputControllerWindows1/rightShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f345f68d-3be9-4534-9f95-0aa0076b628f
+    m_ActionName: CarController/SwitchArrowType[/Keyboard/q,/XInputControllerWindows/leftShoulder,/XInputControllerWindows1/leftShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 35cea38e-497c-4749-bd4a-8155a006b663
+    m_ActionName: CarController/Pause[/Keyboard/escape,/XInputControllerWindows/start,/XInputControllerWindows1/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2c3a6f6d-6e93-4390-8e70-43f9e85d0cdd
+    m_ActionName: CarController/LookBack[/XInputControllerWindows/buttonNorth,/XInputControllerWindows1/buttonNorth,/Keyboard/ctrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c1925e9a-197b-41ef-b513-6be0016416dd
+    m_ActionName: Menu/LeftArrow[/XInputControllerWindows/dpad/left,/XInputControllerWindows1/dpad/left,/XInputControllerWindows/leftStick/left,/XInputControllerWindows1/leftStick/left,/Keyboard/a,/Keyboard/leftArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 36bb39b0-dbb2-4d41-9c64-26cb0e9bf37e
+    m_ActionName: Menu/RightArrow[/XInputControllerWindows/dpad/right,/XInputControllerWindows1/dpad/right,/XInputControllerWindows/leftStick/right,/XInputControllerWindows1/leftStick/right,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 27bca491-47ee-4a99-b34c-cdd97c140cab
+    m_ActionName: Menu/UpArrow[/XInputControllerWindows/dpad/up,/XInputControllerWindows1/dpad/up,/Keyboard/w,/Keyboard/upArrow,/XInputControllerWindows/leftStick/up,/XInputControllerWindows1/leftStick/up]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 224cefe2-c65a-48bc-9dc5-a7112f9c3958
+    m_ActionName: Menu/DownArrow[/XInputControllerWindows/dpad/down,/XInputControllerWindows1/dpad/down,/44F
+      B696/stick/down,/Keyboard/s,/Keyboard/downArrow,/XInputControllerWindows/leftStick/down,/XInputControllerWindows1/leftStick/down]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: afcafa3a-0c93-4427-8916-508bb627cfb6
+    m_ActionName: Menu/Confirm[/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth,/Keyboard/space,/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 323a317f-0fda-484c-b12e-88d8df125b15
+    m_ActionName: Menu/Cancel[/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast,/Keyboard/backspace,/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 91739d32-8e9a-4368-af93-84be2ea16118
+    m_ActionName: Menu/CancelController[/XInputControllerWindows/buttonEast,/XInputControllerWindows1/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1819aa0e-7961-4129-94a7-7a44ed0c3700
+    m_ActionName: Menu/Pause[/XInputControllerWindows/start,/XInputControllerWindows1/start,/Keyboard/escape]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard
+  m_DefaultActionMap: Menu
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &2813540574700173961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024895873033575683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54b516d7451dec48abd54477bb4ee8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

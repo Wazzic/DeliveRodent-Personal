@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PickUpPoint
+  - DropOffPoint
+  - FxTemporaire
+  - SlipStreamTrigger
+  - PedestrianCar
+  - UI1
+  - Obstacle
+  - OffRoad
+  - Grass
+  - Beach
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - CarBody
+  - 
+  - 
+  - PlayerCamera0
+  - PlayerCamera1
+  - PlayerCamera2
+  - PlayerCamera3
+  - SingleDeliveryHasItem
+  - SingleDeliveryNoItem
+  - 
+  - 
+  - Particle
+  - CarAttackTrigger
+  - SlipStreamTrigger
+  - Obstacle
+  - Missile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3116720443
+    locked: 0
+  - name: Particle
+    uniqueID: 2527188317
+    locked: 0

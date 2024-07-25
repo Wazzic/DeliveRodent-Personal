@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5fa4880f9b8c149a0856e47b2ededf, type: 3}
+  m_Name: ZoneMatSO
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: e0baf98ea3da336429812979846dd8fc, type: 2}
+  zoneMatsList:
+  - material: {fileID: 2100000, guid: 6bdefcf3dcc497447afaa1763a91c013, type: 2}
+    active: 1
+  - material: {fileID: 2100000, guid: 80681973861aae74cb0e883fddaf7e85, type: 2}
+    active: 0
+  - material: {fileID: 2100000, guid: 100231fdc793d5849982ef5b6aa845f0, type: 2}
+    active: 0
+  - material: {fileID: 2100000, guid: 39a9f223b3e02064687d3520883c729b, type: 2}
+    active: 0
+  - material: {fileID: 2100000, guid: 1f74a0f255345674b985ff201a1e08cf, type: 2}
+    active: 0
+  - material: {fileID: 2100000, guid: 902c6470cf771384682273bae003b5ca, type: 2}
+    active: 0
+  - material: {fileID: 2100000, guid: 709d343b34676c04896f43c395766054, type: 2}
+    active: 0
+  - material: {fileID: 2100000, guid: 517248f585f127748af7af1c154c2a78, type: 2}
+    active: 0
+  defaultPickUpMat: {fileID: 2100000, guid: 6bdefcf3dcc497447afaa1763a91c013, type: 2}
+  defaultDropOffMat: {fileID: 2100000, guid: 80681973861aae74cb0e883fddaf7e85, type: 2}
+  defaultPlayerMat: {fileID: 2100000, guid: 1f74a0f255345674b985ff201a1e08cf, type: 2}
+  defaultHatMat: {fileID: 2100000, guid: 372ba8a177ee01540be899683a85b3ec, type: 2}

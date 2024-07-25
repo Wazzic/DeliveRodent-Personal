@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57369bdf8d7bf342a89a40e1f622a42, type: 3}
+  m_Name: PlayerConfigsSO
+  m_EditorClassIdentifier: 
+  numberOfPlayers: 2
+  roundTime: 2
+  activeZones: 1
+  carModels: []
+  carMaterials:
+  - {fileID: 2100000, guid: b9947006dc85fa44aa75f8ac5480e60e, type: 2}
+  - {fileID: 2100000, guid: 2ea706ee0b923b641b4cc03c31fb7577, type: 2}
+  carPrefabs:
+  - {fileID: 2724010175611920808, guid: 4dc16cdc78326bb4d9df1f9700c7caeb, type: 3}
+  - {fileID: 716692729249509971, guid: 33fa6f1679883b840ac6d2e33569b6a9, type: 3}
+  characterModels: []
+  characterMaterials: []
+  characterPrefabs:
+  - {fileID: 2319595193286725534, guid: b3ef024c6139f8f4080477780e96a24b, type: 3}
+  - {fileID: 7036110666096764064, guid: 7b9d2dcb73594784abfa2e0fb26407cb, type: 3}
+  characterIcon:
+  - {fileID: 2100000, guid: e71d3164553e04e4fa711cf26105c3c8, type: 2}
+  - {fileID: 2100000, guid: e71d3164553e04e4fa711cf26105c3c8, type: 2}
+  characterHats:
+  - {fileID: 919132149155446097, guid: ce28e52b146b0194791ed092388b9827, type: 3}
+  - {fileID: 919132149155446097, guid: 56ea2217d155f4644bf986c39cae928e, type: 3}
+  hapticLevel: 0.1001
