@@ -15,12 +15,12 @@ MonoBehaviour:
   sceneNames:
   - StartScreen
   - MainMenu
-  - Settings_Screen
+  - SettingsScreen
   - GameSettings
   - Lobby
-  - smol_map_Mk2
+  - MarkAltMap
   - EndGame
-  - FinalWinnerScene
+  - WinnerScene
   - DAREPrototypeMap
   - Credits
   - LoadingScreen

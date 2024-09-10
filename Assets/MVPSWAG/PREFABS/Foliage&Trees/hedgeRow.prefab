@@ -26,6 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209337333283346346}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.05, z: 0.05}
@@ -36,7 +37,6 @@ Transform:
   - {fileID: 5443335618335125670}
   - {fileID: 9068206296403388756}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8150968555343901501
 MeshFilter:
@@ -96,11 +96,19 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209337333283346346}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 105.62669, y: 118.76232, z: 135.06987}
-  m_Center: {x: 0.2566738, y: 59.38116, z: 3.6305904}
+  serializedVersion: 3
+  m_Size: {x: 494.6611, y: 118.76232, z: 135.06987}
+  m_Center: {x: -5.0748444, y: 59.38116, z: 3.6305904}
 --- !u!1 &1884075739074527433
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +120,6 @@ GameObject:
   - component: {fileID: 7231488800669299915}
   - component: {fileID: 4553099243477596871}
   - component: {fileID: 4987314637165660668}
-  - component: {fileID: 7268096007368623109}
   m_Layer: 0
   m_Name: hedgeRow
   m_TagString: Untagged
@@ -127,13 +134,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884075739074527433}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 100, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1157284447121122667}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4553099243477596871
 MeshFilter:
@@ -185,19 +192,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7268096007368623109
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884075739074527433}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 105.62669, y: 118.76232, z: 135.06987}
-  m_Center: {x: 0.2566738, y: 59.38116, z: 3.6305904}
 --- !u!1 &1890217222333001968
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,7 +203,6 @@ GameObject:
   - component: {fileID: 9068206296403388756}
   - component: {fileID: 458162358653363319}
   - component: {fileID: 7237590682268093618}
-  - component: {fileID: 9175112333213723845}
   m_Layer: 0
   m_Name: hedgeRow
   m_TagString: Untagged
@@ -224,13 +217,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890217222333001968}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -200, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1157284447121122667}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &458162358653363319
 MeshFilter:
@@ -282,19 +275,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9175112333213723845
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890217222333001968}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 105.62669, y: 118.76232, z: 135.06987}
-  m_Center: {x: 0.2566738, y: 59.38116, z: 3.6305904}
 --- !u!1 &4085088663729928426
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +286,6 @@ GameObject:
   - component: {fileID: 5443335618335125670}
   - component: {fileID: 1561606187009840506}
   - component: {fileID: 4050082697673495265}
-  - component: {fileID: 8160575034452003200}
   m_Layer: 0
   m_Name: hedgeRow
   m_TagString: Untagged
@@ -321,13 +300,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4085088663729928426}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -100, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1157284447121122667}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1561606187009840506
 MeshFilter:
@@ -379,19 +358,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8160575034452003200
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4085088663729928426}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 105.62669, y: 118.76232, z: 135.06987}
-  m_Center: {x: 0.2566738, y: 59.38116, z: 3.6305904}
 --- !u!1 &9130905396051577431
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +369,6 @@ GameObject:
   - component: {fileID: 2757506484328106278}
   - component: {fileID: 7328487897595491001}
   - component: {fileID: 4009915900622656815}
-  - component: {fileID: 9140997330053649876}
   m_Layer: 0
   m_Name: hedgeRow
   m_TagString: Untagged
@@ -418,13 +383,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9130905396051577431}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 200, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1157284447121122667}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7328487897595491001
 MeshFilter:
@@ -476,16 +441,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9140997330053649876
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9130905396051577431}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 105.62669, y: 118.76232, z: 135.06987}
-  m_Center: {x: 0.2566738, y: 59.38116, z: 3.6305904}
