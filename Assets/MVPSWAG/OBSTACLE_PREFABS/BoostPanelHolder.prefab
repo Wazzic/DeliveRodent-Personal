@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &681424419111516109
 Transform:
@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681424419111516106}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -45,20 +46,29 @@ Transform:
   - {fileID: 8104750501298318524}
   - {fileID: 8104750499927496719}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &681424418969488085
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -121,7 +131,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750499942442315 stripped
 Transform:
@@ -134,13 +146,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -203,7 +225,9 @@ PrefabInstance:
       value: -17.52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750499927496719 stripped
 Transform:
@@ -216,13 +240,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -285,7 +319,9 @@ PrefabInstance:
       value: -11.655
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750499822895322 stripped
 Transform:
@@ -298,13 +334,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -367,7 +413,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750499787759795 stripped
 Transform:
@@ -380,13 +428,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -449,7 +507,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500742025028 stripped
 Transform:
@@ -462,13 +522,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -531,7 +601,9 @@ PrefabInstance:
       value: -7.06
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500652796125 stripped
 Transform:
@@ -544,13 +616,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -613,7 +695,9 @@ PrefabInstance:
       value: -1.845
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500534226744 stripped
 Transform:
@@ -626,13 +710,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -695,7 +789,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500488691837 stripped
 Transform:
@@ -708,13 +804,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -777,7 +883,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500444296944 stripped
 Transform:
@@ -790,13 +898,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -859,7 +977,9 @@ PrefabInstance:
       value: -1.491
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500356784012 stripped
 Transform:
@@ -872,13 +992,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -941,7 +1071,9 @@ PrefabInstance:
       value: 1.147
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500284540301 stripped
 Transform:
@@ -954,13 +1086,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -1023,7 +1165,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750501298318524 stripped
 Transform:
@@ -1036,13 +1180,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -1105,7 +1259,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750500907293531 stripped
 Transform:
@@ -1118,13 +1274,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -1187,7 +1353,9 @@ PrefabInstance:
       value: 7.415
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750501835782781 stripped
 Transform:
@@ -1200,13 +1368,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -1269,7 +1447,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750501542373303 stripped
 Transform:
@@ -1282,13 +1462,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 681424419111516109}
     m_Modifications:
+    - target: {fileID: 8722694323017691032, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
       propertyPath: m_Name
       value: BoostPanel (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722694323017691034, guid: 37e2527f303631e4cbb0cfa03beef003,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8722694323017691038, guid: 37e2527f303631e4cbb0cfa03beef003,
         type: 3}
@@ -1351,7 +1541,9 @@ PrefabInstance:
       value: 17.745
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e2527f303631e4cbb0cfa03beef003, type: 3}
 --- !u!4 &8104750501372828978 stripped
 Transform:
