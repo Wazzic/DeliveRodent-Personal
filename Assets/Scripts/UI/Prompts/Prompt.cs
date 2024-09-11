@@ -22,7 +22,6 @@ public class Prompt : MonoBehaviour
     void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        
 
         rectTransform = GetComponent<RectTransform>();
 
@@ -45,10 +44,10 @@ public class Prompt : MonoBehaviour
         if (!isShowing)
         {
             isShowing = true;
-            
+
             //rectTransform.localScale = 0.01f * Vector3.one;
-            
-            scaleSpring.SpringTo(Vector3.one);        
+
+            scaleSpring.SpringTo(Vector3.one);
             //scaleSpring.Nudge(Vector3.one * 10);
 
             canvasGroup.DOFade(1.0f, 1); 
@@ -90,7 +89,6 @@ public class Prompt : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         HidePrompt();
-        
     }
     public void ChangeText(string newText)
     {

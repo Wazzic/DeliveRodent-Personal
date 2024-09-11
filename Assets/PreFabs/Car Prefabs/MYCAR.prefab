@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9978046, z: -0.06622726, w: 0}
-  m_LocalPosition: {x: 0, y: 8, z: 15}
+  m_LocalRotation: {x: 0.06622726, y: -1.3403144e-23, z: 6.573862e-25, w: 0.9978046}
+  m_LocalPosition: {x: 0, y: 8, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -752,8 +752,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3844194611019278485}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 2.3171054e-25, y: -0.9912279, z: 0.13216372, w: -1.3417256e-23}
+  m_LocalPosition: {x: 0, y: 3.9649115, z: 29.73684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -952,7 +952,6 @@ GameObject:
   - component: {fileID: 97990921971584909}
   - component: {fileID: 8931778948146611680}
   - component: {fileID: 2424912239057193861}
-  - component: {fileID: 8488480718429555145}
   m_Layer: 6
   m_Name: MYCAR
   m_TagString: Player
@@ -1676,18 +1675,6 @@ MonoBehaviour:
     type: 3}
   playerScoreScripts: []
   playerRank: -1
---- !u!114 &8488480718429555145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5055721462177301061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034aaac215fa12d4fa7a5e1188ee253c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5818082531215917800
 GameObject:
   m_ObjectHideFlags: 0
