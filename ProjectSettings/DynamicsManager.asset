@@ -14,7 +14,7 @@ PhysicsManager:
   m_DefaultSolverVelocityIterations: 1
   m_QueriesHitBackfaces: 0
   m_QueriesHitTriggers: 1
-  m_EnableAdaptiveForce: 0
+  m_EnableAdaptiveForce: 1
   m_ClothInterCollisionDistance: 0.1
   m_ClothInterCollisionStiffness: 0.2
   m_LayerCollisionMatrix: e9ffe7ff08ffa7ff08ffa7ffffffffff08ffa7ff09ffa7ff49ffffff89ffffffffffffffffffffffffffe7ffffffe7ffffffe7ffffffe7ffffffbfffffffbfffffffffffffffffffffffa7ffc8c3a3ffc8c3a3ffffffbfffc93fc3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff

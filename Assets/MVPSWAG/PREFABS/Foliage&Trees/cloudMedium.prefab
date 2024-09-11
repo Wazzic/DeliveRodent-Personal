@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7720931111452561565}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -30,14 +31,13 @@ Transform:
   m_Children:
   - {fileID: 8771007547447468030}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &9093429114456324117
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 8901144369450245770}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bf83f604f893c7442a686fc3082c894f,
@@ -97,7 +97,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: bf83f604f893c7442a686fc3082c894f,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bf83f604f893c7442a686fc3082c894f,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: f06ba98dfbb7db94e85dbcb72db4e786, type: 2}
     - target: {fileID: 919132149155446097, guid: bf83f604f893c7442a686fc3082c894f,
@@ -105,8 +110,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud_medium
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf83f604f893c7442a686fc3082c894f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf83f604f893c7442a686fc3082c894f, type: 3}
 --- !u!4 &8771007547447468030 stripped
 Transform:

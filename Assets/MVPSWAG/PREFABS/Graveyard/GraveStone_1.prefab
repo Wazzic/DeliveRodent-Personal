@@ -19,7 +19,7 @@ GameObject:
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8549475244686696362
 Transform:
@@ -56,7 +56,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -236,6 +236,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GraveStoneVFXHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 2633091098538458830, guid: fb0f2a01455bd484097fd787460887d6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424825666041889204, guid: fb0f2a01455bd484097fd787460887d6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424825666041889206, guid: fb0f2a01455bd484097fd787460887d6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8654435881232409077, guid: fb0f2a01455bd484097fd787460887d6,
         type: 3}
