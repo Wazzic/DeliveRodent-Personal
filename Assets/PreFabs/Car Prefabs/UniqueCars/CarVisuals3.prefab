@@ -53,6 +53,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.8200073
       objectReference: {fileID: 0}
+    - target: {fileID: 3585016208061024795, guid: 73b1f26b4c995e24fbf978ee6f665d1a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
     - target: {fileID: 5210822386338209357, guid: 73b1f26b4c995e24fbf978ee6f665d1a,
         type: 3}
       propertyPath: m_Mesh
@@ -64,6 +69,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarVisuals3
       objectReference: {fileID: 0}
+    - target: {fileID: 6905476309731377907, guid: 73b1f26b4c995e24fbf978ee6f665d1a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
     - target: {fileID: 7556164628118377877, guid: 73b1f26b4c995e24fbf978ee6f665d1a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -79,6 +89,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.306
       objectReference: {fileID: 0}
+    - target: {fileID: 7754499408345006284, guid: 73b1f26b4c995e24fbf978ee6f665d1a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
+    - target: {fileID: 7827204916044794765, guid: 73b1f26b4c995e24fbf978ee6f665d1a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
     - target: {fileID: 8218073042834239455, guid: 73b1f26b4c995e24fbf978ee6f665d1a,
         type: 3}
       propertyPath: m_LocalScale.x
