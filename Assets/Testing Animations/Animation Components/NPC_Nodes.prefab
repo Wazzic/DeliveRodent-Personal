@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2945554615302321221}
   m_Layer: 0
-  m_Name: npc node
+  m_Name: NPC_Nodes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
