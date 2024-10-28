@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: -933963309058606266}
   - component: {fileID: 5007992483152362773}
   - component: {fileID: 1577625940905555187}
-  - component: {fileID: 4639403431377915603}
   - component: {fileID: -8882951919024440000}
   m_Layer: 21
   m_Name: Umbrella
@@ -156,27 +155,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.19, y: 1.1787072, z: 1.31}
   m_Center: {x: 0.0000004554177, y: 5.095353, z: 0.00000091177634}
---- !u!65 &4639403431377915603
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6506345160957616487}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 5.8289504, z: 0.1}
-  m_Center: {x: 0.00000047683716, y: 2.9144752, z: 0.0000009536743}
 --- !u!82 &-8882951919024440000
 AudioSource:
   m_ObjectHideFlags: 0
