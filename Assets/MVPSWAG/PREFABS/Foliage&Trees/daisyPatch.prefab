@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 293022233357440486}
   - component: {fileID: 8451652132644974214}
   m_Layer: 0
-  m_Name: daisyPatch
+  m_Name: DaisyPatch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

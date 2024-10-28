@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -7892625121987763099}
   - component: {fileID: 701124629571784347}
   m_Layer: 0
-  m_Name: stoneChunky
+  m_Name: StoneChunky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

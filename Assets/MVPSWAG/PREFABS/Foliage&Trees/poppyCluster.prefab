@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4468614725410526925}
   - component: {fileID: 1866533289334694407}
   m_Layer: 0
-  m_Name: poppyCluster
+  m_Name: PoppyCluster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
