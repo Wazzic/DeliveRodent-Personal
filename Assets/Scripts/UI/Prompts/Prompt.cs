@@ -90,6 +90,7 @@ public class Prompt : MonoBehaviour
         yield return new WaitForSeconds(delay);
         HidePrompt();
     }
+
     public void ChangeText(string newText)
     {
         if (promptText != null)

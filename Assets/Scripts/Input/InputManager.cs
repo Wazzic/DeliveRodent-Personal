@@ -15,7 +15,6 @@ public class InputManager : MonoBehaviour
     [SerializeField] private List<CullingGroup> playerCullingGroups;
     public bool controlsEnabled;
 
-    // Start is called before the first frame update
     void Awake()
     {
         if (instance == null)
@@ -38,23 +37,12 @@ public class InputManager : MonoBehaviour
         {
             PrototypingSceneManager.instance.SpawnPlayer(input);
         }
-        
-
-        /*
-        CinemachineVirtualCamera virtualCamera = input.gameObject.GetComponentInChildren<CinemachineVirtualCamera>();
-        virtualCamera.gameObject.layer = 9 + playerInput.Count;
-        */
     }
 
     public void OnPlayerLeave(PlayerInput input)
     {
         Debug.Log("NewInputTriggered");
         playerInput.Remove(input);
-
-        /*
-        CinemachineVirtualCamera virtualCamera = input.gameObject.GetComponentInChildren<CinemachineVirtualCamera>();
-        virtualCamera.gameObject.layer = 9 + playerInput.Count;
-        */
     }
 
     public void EnablePlayerControls()
@@ -65,5 +53,4 @@ public class InputManager : MonoBehaviour
     {
         controlsEnabled = false;
     }
-    
 }
