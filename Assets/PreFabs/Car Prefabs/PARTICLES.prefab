@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 5055721462177301060}
   - component: {fileID: 97990921971584909}
   m_Layer: 7
-  m_Name: PARTICLES
+  m_Name: Particles
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

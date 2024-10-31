@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3770078719996123616}
   - component: {fileID: 5255886854034651800}
   m_Layer: 0
-  m_Name: broken glass
+  m_Name: Broken_Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

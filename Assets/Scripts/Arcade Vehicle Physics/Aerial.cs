@@ -1,4 +1,3 @@
-//using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Spring;
@@ -8,11 +7,9 @@ public class Aerial : MonoBehaviour
 {
     public Transform springTarget;
     public Transform springObj;
-
     
     public float drag = 2.5f;//drag
     public float springForce = 80.0f;//Spring
-
     
     public Transform holder;
 
@@ -23,7 +20,6 @@ public class Aerial : MonoBehaviour
     void Start()
     {
         SpringRB = springObj.GetComponent<Rigidbody>();//Find the RigidBody component
-        //springObj.transform.parent = null;//Take the spring out of the hierarchy
     }
 
     void FixedUpdate()

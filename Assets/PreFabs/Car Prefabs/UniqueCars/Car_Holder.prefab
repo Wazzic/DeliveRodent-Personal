@@ -372,7 +372,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6470628660411565095, guid: 4d51378d73496d548a5748a69a34cbdc, type: 3}
+  - {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1373,7 +1373,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6470628660411565095, guid: 4d51378d73496d548a5748a69a34cbdc, type: 3}
+  - {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1672,7 +1672,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6470628660411565095, guid: 4d51378d73496d548a5748a69a34cbdc, type: 3}
+  - {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12223,7 +12223,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6470628660411565095, guid: 4d51378d73496d548a5748a69a34cbdc, type: 3}
+  - {fileID: 2100000, guid: 3527a1c98e7b8a94aa152a4720766089, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21959,7 +21959,7 @@ GameObject:
   - component: {fileID: 8648945703266590317}
   - component: {fileID: 8599789158379907310}
   m_Layer: 7
-  m_Name: CarHolderPrefab
+  m_Name: Car_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -15,11 +15,11 @@ GameObject:
   - component: {fileID: -5635141673807411760}
   - component: {fileID: 5615819613936684521}
   m_Layer: 21
-  m_Name: sandcastle_large
+  m_Name: Sandcastle_Large
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7726280094057954081
 Transform:
@@ -56,7 +56,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -149,7 +149,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 250
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -236,6 +236,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SandcastleVFXHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 2633091098538458830, guid: ed660a9a9b2b36745b9cc1a3beae9f45,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424825666041889204, guid: ed660a9a9b2b36745b9cc1a3beae9f45,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424825666041889206, guid: ed660a9a9b2b36745b9cc1a3beae9f45,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3424825666042256790, guid: ed660a9a9b2b36745b9cc1a3beae9f45,
         type: 3}

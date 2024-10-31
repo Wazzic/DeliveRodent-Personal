@@ -21,7 +21,6 @@ public class SpawnWiningCars : MonoBehaviour
 
     [SerializeField] private ZoneMatSO zoneMatSO;
 
-
     void spawnCarMesh(Vector3 position, Quaternion rot, int index)
     { 
         //Create a gameobject to be spawned in this case the players selected car model
@@ -65,9 +64,7 @@ public class SpawnWiningCars : MonoBehaviour
         go.transform.Rotate(0, 180, 0);
         //adjust scaling of the character
         go.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-       
     }
-
 
     private void SpawnTyres(Transform parent)
     {
@@ -79,7 +76,6 @@ public class SpawnWiningCars : MonoBehaviour
 
     void spawnPlayer(Transform spawn, int index)
     {
-
         //Spawns the car and attaches it to the player for visual representation
         GameObject playerCarVisual = Instantiate(playerConfigsSO.carPrefabs[index], spawn);
         //Spawns the character and attaches it to the driver seat
@@ -115,7 +111,6 @@ public class SpawnWiningCars : MonoBehaviour
         //SpawnTyres(go.transform);
     }
 
-    // Start is called before the first frame update
     void Awake()
     {
         for (int i = 0; i < playerConfigsSO.numberOfPlayers; i++)
@@ -216,5 +211,4 @@ public class SpawnWiningCars : MonoBehaviour
         //    }
         //}
     }
-      
 }

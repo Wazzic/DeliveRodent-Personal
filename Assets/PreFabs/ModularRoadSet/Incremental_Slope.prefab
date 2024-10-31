@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4149162536164696971}
   m_Layer: 0
-  m_Name: Incremental Slope
+  m_Name: Incremental_Slope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

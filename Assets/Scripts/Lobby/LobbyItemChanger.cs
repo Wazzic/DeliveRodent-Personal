@@ -5,13 +5,9 @@ using UnityEngine;
 public class LobbyItemChanger<T>
 {
     private int currentIndex;
-
     List<T> listOfItems = new();
-
-
     public LobbyItemChanger()
     {
-
     }
 
     public LobbyItemChanger(List<T> list)
@@ -31,7 +27,6 @@ public class LobbyItemChanger<T>
         {
             currentIndex++;
         }
-
     }
     public void DecreaseMeshIndex()
     {
@@ -43,7 +38,6 @@ public class LobbyItemChanger<T>
         {
             currentIndex--;
         }
-
     }
 
 

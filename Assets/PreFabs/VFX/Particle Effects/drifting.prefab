@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2770402434301664282}
   - component: {fileID: 4693405900816368124}
   m_Layer: 0
-  m_Name: drifting
+  m_Name: Drifting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

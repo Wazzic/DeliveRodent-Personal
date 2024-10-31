@@ -152,7 +152,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 250
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -584,10 +584,95 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8532306973283397070}
     m_Modifications:
+    - target: {fileID: -8882951919024440000, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577625940905555187, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.17347659
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577625940905555187, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 7.041625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577625940905555187, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.20957316
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577625940905555187, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.00027493332
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577625940905555187, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 2.3393412
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577625940905555187, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.020616312
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999025758911419556, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264164645392218639, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4304058033356958144, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4304058033356958146, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4325205005041035920, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224016532209716420, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007311191528016232, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482519357345039702, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6506345160957616487, guid: d3e5d621542297e4e9e9f2c9334bcb87,
         type: 3}
       propertyPath: m_Name
       value: Umberella
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506345160957616487, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753192814854058398, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7933230186530012168, guid: d3e5d621542297e4e9e9f2c9334bcb87,
         type: 3}
@@ -639,10 +724,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8178753846853755626, guid: d3e5d621542297e4e9e9f2c9334bcb87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9119253715287234985, guid: d3e5d621542297e4e9e9f2c9334bcb87,
         type: 3}
       propertyPath: m_StaticShadowCaster
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

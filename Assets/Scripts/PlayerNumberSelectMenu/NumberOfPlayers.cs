@@ -14,7 +14,6 @@ public class NumberOfPlayers : MonoBehaviour
     
     int playerNumber;
     TextMeshProUGUI playerNumberText;
-
     private void Awake()
     {
         buttons = new List<Button>();

@@ -15,11 +15,11 @@ GameObject:
   - component: {fileID: 3166602241252650967}
   - component: {fileID: 2979834091927598307}
   m_Layer: 21
-  m_Name: umbrella_yellow
+  m_Name: Umbrella_Yellow
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5950489452110453673
 Transform:
@@ -56,7 +56,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -138,7 +138,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2709394711378780956, guid: a602d3d2e2a0eb941991a41c72b2fdb9,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 23160fb827b76214784810f06307e236, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0dd66681c5cee71498634adfab83faaf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -149,7 +149,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 250
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -232,6 +232,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5950489452110453673}
     m_Modifications:
+    - target: {fileID: 2089267685156028485, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3539193694813669356, guid: f7954040977045d4491cab6a91c09f33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -286,6 +291,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GardenFenceParticleEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270909691751480945, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354485590457659118, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393388223871630625, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393388223871630627, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709449347042121765, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061043582866382217, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555921231377360255, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824624382804873655, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557864035595007499, guid: f7954040977045d4491cab6a91c09f33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

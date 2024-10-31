@@ -2,14 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-//using UnityEngine.Analytics;
 using UnityEngine.InputSystem;
 
 public class AttackScript : MonoBehaviour
 {
-    //PUBLIC
-    //PRIVATE
-    //delivery VFX Handler
     private DeliveryVFXHandler deliveryVFXHandler;
     //ID
     private int ID;
@@ -41,9 +37,7 @@ public class AttackScript : MonoBehaviour
     {
         if (context.action.WasPressedThisFrame() && InputManager.instance.controlsEnabled)
         {
-            //deliveryVFXHandler.PlayAttackVFX();
             attackButton = true;
-            
         }
         else
         {
@@ -76,9 +70,6 @@ public class AttackScript : MonoBehaviour
 
     private void Update()
     {
-        // Set the active state of the stealButtonPrompt GameObject based on the value of the "canAttack" variable.
-        // If "canAttack" is true, set the GameObject to active; otherwise, set it to inactive.
-        //stealButtonPrompt.SetActive(playerInTrigger ? true : false);
         if (playerInTrigger)
         {
             attackButtonPrompt.ShowPromptSpringTo();
@@ -121,14 +112,12 @@ public class AttackScript : MonoBehaviour
     void Attack()
     {
         Collider[] colliders = new Collider[4];
-        int totalCollision = 0;
+        int totalCollision;
         totalCollision = Physics.OverlapSphereNonAlloc(transform.position, attackCollider.radius, colliders, layerMask);
         
         //Plays the attack visual effect && Haptic feedback
         deliveryVFXHandler.PlayAttackVFX();
         carAudioHandler.PlaySwoosh();
-        //GamepadRumbler.SetCurrentGamepad(arcadeVehicleController.PlayerID);
-        //HapticPatterns.PlayEmphasis(1f, 0.2f);
 
         bool successfulAttack = false;
         for (int i = 0; i < totalCollision; i++)
@@ -168,7 +157,6 @@ public class AttackScript : MonoBehaviour
         }
         //Sets the time for last attack
         lastAttacked = Time.time;
-
     }
 
     private void StunOtherPlayer(PlayerStatus otherPlayerStatus, Delivery otherObjectDelivery)
