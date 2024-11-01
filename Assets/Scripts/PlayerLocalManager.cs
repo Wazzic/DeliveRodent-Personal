@@ -14,7 +14,7 @@ public class PlayerLocalManager : MonoBehaviour
 
     public int totalPlayers;
     public bool hasDelivery;
-    bool invicible;
+    //bool invicible;
 
     [SerializeField] GameObject attackCollider;
     private void Start()

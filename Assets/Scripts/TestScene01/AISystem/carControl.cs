@@ -181,7 +181,8 @@ public class carControl : MonoBehaviour
                 //pause for 3 secs.
                 if (timer > 0)
                 {
-                    navigationAgent.Stop();
+                    //navigationAgent.Stop();
+                    navigationAgent.isStopped = true;
                     navigationAgent.ResetPath();
                     transform.Rotate(0, 360 * Time.deltaTime, 0);
                 }
