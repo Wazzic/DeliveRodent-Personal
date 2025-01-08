@@ -13,5 +13,4 @@ public class TrafficNodeData : MonoBehaviour
     {
         getPos = transform.position;
     }
-
 }

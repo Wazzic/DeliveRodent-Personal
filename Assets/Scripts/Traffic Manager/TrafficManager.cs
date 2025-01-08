@@ -90,15 +90,10 @@ public class TrafficManager : MonoBehaviour
             lineColor[i] = new Color(Random.value, Random.value, Random.value, 1.0f);
         }
         #endregion
-
-      
-
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-
         for(int i = 0; i < m_trafficRoutes.Count; i++)
         {
             for(int j = 0; j < amountOfCarsPerRoute; j++)
